@@ -1,8 +1,5 @@
-def check_type():
-    n=89
-    print("data type of n is "+str(type(n)))
-    m="b1tch"
-    print("data type of m is "+str(type(m)))
+def check_type(amount):
+    print("data type of amount is "+str(type(amount)))
 
 
 def check(amount):
@@ -41,7 +38,8 @@ def main():
     print("Average amount is ",cal_avg(m_list))
     ptr()
     print(check(80))
-    check_type()
+    amount=23
+    check_type(amount)
 
 
 if __name__ == '__main__':
